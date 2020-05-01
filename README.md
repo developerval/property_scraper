@@ -6,7 +6,7 @@
 
 # Modules used
 
-## BeautifulSoup, requests
+## BeautifulSoup, requests, pandas
 
 # Notes
 
