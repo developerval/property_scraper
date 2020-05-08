@@ -30,4 +30,4 @@ for page in range(1, page_number+1):
         props.append(d)
 
 data = pandas.DataFrame(props)
-data.to_csv('properties.cvs')
+data.to_csv('properties.csv', index=False)
