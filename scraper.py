@@ -29,5 +29,6 @@ for page in range(1, page_number+1):
         d['URL'] = base_website + prop.find('a').get('href')
         props.append(d)
 
+
 data = pandas.DataFrame(props)
-data.to_csv('properties.csv', index=False)
+print(data)
